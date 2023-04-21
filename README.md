@@ -9,18 +9,18 @@ This would not have been possible if not for the great work by [Lukas Blecher's 
 </div>
 
 <br>
-<center>
-<div style="display;">
-    <img src="assets/menu.png" style="width:15%; margin-left:5px;">
+
+<div style="display:flex; align-items:center; justify-content:center;">
+    <img src="assets/menu.png" style="width:15%; margin-right:5px;">
+    <span style="font-size:20px;"></span>
 </div>
-<br>
 
 
 <center>
 <div style="display:flex;">
-    <img src="assets/app.png" style="width:30%;height:100%; margin-left:5px;">
-    <img src="assets/action1.png" style="width:40%;margin-right:5px; margin-left:5px;">
-    <img src="assets/menu2.png" style="width:30%;height:50%; margin-left:5px;">
+    <img src="assets/app.png" style="width:28%;height:100%; margin-left:0px;">
+    <img src="assets/action1.png" style="width:40%;margin-right:2px; margin-left:2px;">
+    <img src="assets/menu2.png" style="width:28%;height:50%; margin-left:0px;">
 </div>
 </center>
 
