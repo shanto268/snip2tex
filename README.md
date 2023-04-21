@@ -13,6 +13,15 @@ This would not have been possible if not for the great work by [Lukas Blecher's 
 <div style="display;">
     <img src="assets/menu.png" style="width:15%; margin-left:5px;">
 </div>
+<br>
+
+
+<center>
+<div style="display:flex;">
+    <img src="assets/app.png" style="width:30%;height:100%; margin-left:5px;">
+    <img src="assets/action1.png" style="width:40%;margin-right:5px; margin-left:5px;">
+    <img src="assets/menu2.png" style="width:30%;height:50%; margin-left:5px;">
+</div>
 </center>
 
 ## Installation
