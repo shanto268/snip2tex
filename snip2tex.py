@@ -22,7 +22,7 @@ def execute_command():
     return result.stdout
 
 # Define the path to the icon file (replace with your own path)
-icon_path = "icon.png"
+icon_path = "assets/icon.png"
 
 # Create a rumps App class
 class LatexOCRApp(rumps.App):
@@ -31,7 +31,7 @@ class LatexOCRApp(rumps.App):
         super(LatexOCRApp, self).__init__("LatexOCR", icon=icon_path)
     
     # Define the "Execute" menu item
-    @rumps.clicked("Execute")
+    @rumps.clicked("Snip2TeX")
     def execute_menu_item(self, _):
         output = execute_command()
         rumps.alert(output)

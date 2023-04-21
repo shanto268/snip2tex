@@ -4,6 +4,16 @@ This is a simple Menu Bar app for macOS that allows you to execute `LatexOCR`, a
 
 This would not have been possible if not for the great work by [Lukas Blecher's LaTeX OCR Project](https://github.com/lukas-blecher/LaTeX-OCR)
 
+<div style="display:flex;">
+    <img src="assets/bar.png" style="width:100%; margin-right:5px;">
+</div>
+
+<br>
+<center>
+<div style="display;">
+    <img src="assets/menu.png" style="width:15%; margin-left:5px;">
+</div>
+</center>
 
 ## Installation
 
