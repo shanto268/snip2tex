@@ -18,9 +18,10 @@ Install `LatexOCR` by running the following command in your preferred `conda env
 
 ```
 pip install latexocr
-
 ```
+
 or 
+
 ```
 pip install 'pix2tex[gui]'
 ```
