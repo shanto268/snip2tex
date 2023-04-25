@@ -16,7 +16,7 @@ import subprocess
 
 # Define the command to execute
 if platform.system() == "Windows":
-    command = "C:\\path\\to\\latexocr.exe"
+    command = r"C:\\path\\to\\latexocr.exe"
 elif platform.system() == "Linux":
     command = "/path/to/latexocr"
 else:  # macOS
@@ -56,26 +56,4 @@ if platform.system() == "Darwin":  # macOS
     app.run()
 
 else:  # Windows and Linux
-    import PySimpleGUI as sg
-
-    # Define the GUI layout
-    layout = [
-        [sg.Button("Snip2TeX"), sg.Button("Quit")],
-        [sg.Output(size=(80, 20))]
-    ]
-
-    # Create the window
-    window = sg.Window("LatexOCR", layout)
-
-    # Event loop
-    while True:
-        event, values = window.read()
-
-        if event == sg.WIN_CLOSED or event == "Quit":
-            break
-        elif event == "Snip2TeX":
-            output = execute_command()
-            print(output)
-
-    # Close the window
-    window.close()
+    output = execute_command()

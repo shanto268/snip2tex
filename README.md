@@ -38,19 +38,11 @@ Install the required library by running the following command:
 pip install rumps
 ```
 
-#### Windows and Linux
-Install the required library by running the following command:
-
-```
-pip install pysimplegui
-```
-
-
 ### Step 4: Set the path to LatexOCR
 
 Open the `snip2tex.py` file and set the `command` variable to the path of the `latexocr` command on your system.
 
-**Path of `latexocr` can be found by** `which latexocr` (macOS and Linux) or by searching for the location of the `latexocr.exe` file (Windows)
+**Path of `latexocr` can be found by** `which latexocr` (macOS and Linux) or by searching for the location of the `(get-command latexocr.exe).Path` file (Windows)
 
 
 ### Step 5: Run the app
