@@ -16,11 +16,6 @@ This would not have been possible if not for the great work by [Lukas Blecher's 
 
 Install `LatexOCR` by running the following command in your preferred `conda env`:
 
-```
-pip install latexocr
-```
-
-or 
 
 ```
 pip install 'pix2tex[gui]'
@@ -31,7 +26,7 @@ pip install 'pix2tex[gui]'
 Clone this repository to your local machine by running the following command:
 
 ```
-git clone https://github.com/shanto268/LatexOCR-Menu-Bar-App.git
+git clone https://github.com/shanto268/snip2tex.git
 ```
 
 ### Step 3: Install the required libraries
